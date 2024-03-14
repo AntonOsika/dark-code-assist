@@ -36,9 +36,6 @@ const Index = () => {
           <IconButton ml="auto" colorScheme="green" icon={<FaPlay />} />
         </HStack>
       </VStack>
-
-      {/* User avatar */}
-      <Image src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbXBsb3llZSUyMHBvcnRyYWl0fGVufDB8fHx8MTcxMDQ1MjQ4MHww&ixlib=rb-4.0.3&q=80&w=1080" w={12} h={12} rounded="full" m={4} />
     </Flex>
   );
 };
