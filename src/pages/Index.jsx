@@ -7,9 +7,9 @@ const Index = () => {
   const inputBg = useColorModeValue("white", "gray.800");
 
   return (
-    <Flex h="100vh">
+    <Flex w="100%" h="100vh">
       {/* Left sidebar */}
-      <VStack bg={bg} p={4} spacing={8} alignItems="center" borderRightWidth={1}>
+      <VStack bg={bg} p={4} spacing={8} alignItems="center" borderRightWidth={1} h="100%">
         <IconButton icon={<FaFile />} variant="ghost" />
         <IconButton icon={<FaSearch />} variant="ghost" />
         <IconButton icon={<FaGithub />} variant="ghost" />
@@ -17,12 +17,12 @@ const Index = () => {
       </VStack>
 
       {/* Main panels */}
-      <VStack flex={1} p={8} spacing={4} alignItems="stretch">
+      <VStack flex={1} p={8} spacing={4} alignItems="stretch" w="100%">
         <HStack spacing={4}>
-          <Box flex={1} borderWidth={1} p={4}>
+          <Box flex={1} borderWidth={1} p={4} h="100%">
             <Heading size="md">Shell</Heading>
           </Box>
-          <Box flex={1} borderWidth={1} p={4}>
+          <Box flex={1} borderWidth={1} p={4} h="100%">
             <Heading size="md">Browser</Heading>
             <Text mt={4}>Hey Devin, I'd like for you to benchmark Llama 2 on three different provide[r]</Text>
             <Text color="gray.500" mt={1}>
